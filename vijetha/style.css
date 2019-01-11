@@ -1,0 +1,93 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem .5rem 0rem;
+  font-family: "Gill Sans", sans-serif;
+  color: #2d3c49;
+  font-size: 1.3em}
+
+h2 {
+  color: green;
+}
+
+p {
+  line-height: 140%;
+}
+
+.awareness {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "header"
+    "hero"
+    "article"
+    "footer";
+  grid-row-gap: 1.3rem;
+ }
+
+.header {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  border-bottom: 2px solid #7d97ad;
+}
+
+.header-text {
+  margin: 0;
+  padding: 1rem 0rem;
+  text-align: right;
+}
+
+.logo {
+ padding: 1rem 0rem;
+}
+
+.logo-image {
+  max-height: 75%;
+}
+
+.header-main-text {
+  font-size: 3.8rem;
+  display: block;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.header-sub-text {
+  font-size: 1.5rem;
+  display: block;
+  text-transform: uppercase;
+}
+
+.hero {
+  grid-area: hero;
+  min-height: 50rem;
+  background-image: url("http://www.quoteambition.com/wp-content/uploads/2016/06/cancerstartedfight.png");
+  width: auto;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+	{
+		box-sizing:border-box;
+	}
+.row{
+		display:flex;
+}	
+.column{
+	flex:33.33%;
+	padding:5px;
+}	
+.row{
+		display:flex;
+}
+.column{
+	flex:33.33%;
+	padding:5px;
+}
+.article {
+  grid-area: article;
+  margin-bottom: 4rem;
+}
