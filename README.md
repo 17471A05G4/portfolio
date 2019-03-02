@@ -1,4 +1,4 @@
 # portfolio
 portfolio ...
-sytle.css
+style.css
 
